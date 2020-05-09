@@ -2,30 +2,25 @@
 A Python package for the Raspberry Pi to control the PCA9685 16 Channel 12-bit PWM driver.
 
 
-# Dependencies:
+## Dependencies:
 pip install smbus
 
 
-# Usage:
+## Usage:
 
 ** See example.py for a more detailed usage example.
 
-#import the PCA9685 class
+Import the PCA9685 class:
+'from RPi_PCA9685.PCA9685 import PCA9685'
 
-from RPi_PCA9685.PCA9685 import PCA9685
+Create a PCA9685 object:
+'pca9685 = PCA9685(i2c_address, i2c_port_num)'
 
+Set the PWM frequency:
+'pca9685.set_frequency(frequency)'
 
-#create a PCA9685 object
-pca9685 = PCA9685(i2c_address, i2c_port_num)
+You can set the pulse width on a specific channel:
+'pca9685.set_pwm(channel, 1200)'
 
-
-#set the PWM frequency
-pca9685.set_frequency(frequency)
-
-
-#you can set the pulse width on a specific channel:
-pca9685.set_pwm(channel, 1200)
-
-
-#you can set the duty cycle on the specific channel:
-pca9685.set_duty_cycle(channel, 67)
+You can set the duty cycle on the specific channel:
+'pca9685.set_duty_cycle(channel, 67)'
