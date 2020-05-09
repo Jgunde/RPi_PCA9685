@@ -11,6 +11,7 @@ pip install smbus
 ** See example.py for a more detailed usage example.
 
 #import the PCA9685 class
+
 from RPi_PCA9685.PCA9685 import PCA9685
 
 
