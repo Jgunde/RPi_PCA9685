@@ -11,27 +11,27 @@ pip install smbus
 ## Usage:
 
 **See example.py for a more detailed usage example.**
-
+<br/><br/>
 
 Import the PCA9685 class:
 
 `from RPi_PCA9685.PCA9685 import PCA9685`
-
+<br/><br/>
 
 Create a PCA9685 object:
 
 `pca9685 = PCA9685(i2c_address, i2c_port_num)`
-
+<br/><br/>
 
 Set the PWM frequency:
 
 `pca9685.set_frequency(frequency)`
-
+<br/><br/>
 
 You can set the pulse width on a specific channel:
 
 `pca9685.set_pwm(channel, 1200)`
-
+<br/><br/>
 
 You can set the duty cycle on the specific channel:
 
