@@ -6,6 +6,7 @@ A Python package for the Raspberry Pi to control the PCA9685 16 Channel 12-bit P
 
 ## Dependencies:
 pip install smbus
+<br/><br/>
 
 
 ## Usage:
