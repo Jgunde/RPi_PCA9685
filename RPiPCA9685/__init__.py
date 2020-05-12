@@ -5,5 +5,5 @@ See the examples folder for usage examples.
 
 __version__ = "1.0"
 __author__ = "Jacob Gunderson"
-__url__ = "https://github.com/Jgunde/RPiPCA9685"
+__url__ = "https://github.com/Jgunde/RPi_PCA9685"
 
