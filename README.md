@@ -11,17 +11,17 @@ sudo apt-get install python-smbus
 
 ## Usage:
 
-**See example.py for a more detailed usage example.**
+**See examples/example.py for a more detailed usage example.**
 <br/><br/>
 
 Import the PCA9685 class:
 
-`from RPi_PCA9685.PCA9685 import PCA9685`
+`from RPiPCA9685 import RPiPCA9685`
 <br/><br/>
 
 Create a PCA9685 object:
 
-`pca9685 = PCA9685(i2c_address, i2c_port_num)`
+`pca9685 = RPiPCA9685.PCA9685(i2c_address, i2c_port_num)`
 <br/><br/>
 
 Set the PWM frequency:
