@@ -29,7 +29,7 @@ Set the PWM frequency:
 `pca9685.set_frequency(frequency)`
 <br/><br/>
 
-You can set the pulse width on a specific channel:
+You can set the pulse width (in microseconds) on a specific channel:
 
 `pca9685.set_pwm(channel, 1200)`
 <br/><br/>
