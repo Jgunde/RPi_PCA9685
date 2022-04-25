@@ -1,5 +1,6 @@
 # RPi_PCA9685
 A Python package for the Raspberry Pi to control the PCA9685 16 Channel 12-bit PWM driver.
+Here's a similar alternative [package](https://github.com/Reinbert/pca9685).
 
 ![Image of PCA9685](https://github.com/Jgunde/RPi_PCA9685/blob/master/PCA9685%20Image.jpg)
 
